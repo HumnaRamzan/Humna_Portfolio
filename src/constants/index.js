@@ -7,15 +7,15 @@ export const HERO_CONTENT = `I’m a passionate Front-End Developer with almost 
 export const ABOUT_TEXT = `I recently completed my Bachelor's in Software Engineering, where I gained a solid foundation in programming fundamentals, C++, Object-Oriented Programming (OOP), Data Structures and Algorithms (DSA), and Web Development. My studies also included working with databases, ASP.NET, and the Semantic Web, particularly with ontologies using Protege. In May, I began an internship as a Front-End Developer, where I gained hands-on experience with React.js. Currently, I'm expanding my skill set by learning the MERN stack to deepen my knowledge in full-stack development and build more dynamic, scalable web applications.`;
 
 export const EXPERIENCES = [
+  // {
+  //   year: "OCTOBER 2024 - Present",
+  //   role: "Development Team Lead",
+  //   company: "Dev Techno",
+  //   description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+  //   technologies: ["Javascript", "React.js", "Node.js", "MongoDB"],
+  // },
   {
-    year: "OCTOBER 2024 - Present",
-    role: "Development Team Lead",
-    company: "Dev Techno",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Node.js", "MongoDB"],
-  },
-  {
-    year: "MAY 2024 - OCTOBER 2024",
+    year: "MAY 2024 - Present",
     role: "Frontend Developer",
     company: "Spark Solutionz",
     description: `Designed and developed dynamic, user-focused interfaces for web applications using React.js, Bootstrap, and Tailwind CSS.Collaborated with backend developers and the UX/UI team to create a hospital website from scratch, converting design mockups into efficient, responsive, and pixel-perfect code.Integrated APIs for sliders and dynamic data display, ensuring seamless functionality and a smooth user experience.Conducted thorough testing using Postman, working with JWT tokens to implement secure authentication on both the client and server sides.Implemented robust error handling and optimized performance for reliability and scalability.`,
