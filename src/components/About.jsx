@@ -1,5 +1,5 @@
 import React from "react";
-import ABOUTPIC from "../assets/profile.jpg";
+import ABOUTPIC from "../assets/profile.jpeg";
 import { ABOUT_TEXT } from "../constants/index";
 import { delay, motion } from "framer-motion";
 const About = () => {
@@ -16,7 +16,10 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center ">
-            <img src={ABOUTPIC} className="rounded-2xl h-[420px]" />
+            <img
+              src={ABOUTPIC}
+              className="rounded-2xl h-[420px] object-cover"
+            />
           </div>
         </motion.div>
         <motion.div
